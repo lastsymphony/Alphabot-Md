@@ -805,7 +805,6 @@ exports.listMenu = (prefix) => {
 │○ ${prefix}stickereffect
 │○ ${prefix}downloadmenu
 │○ ${prefix}randomanime
-│○ ${prefix}nsfwmenu
 │○ ${prefix}textpromenu
 │○ ${prefix}othermenu
 │○ ${prefix}gamemenu
@@ -822,13 +821,9 @@ exports.listMenu = (prefix) => {
 }
 exports.listMenu2 = (prefix) => {
     return `╭─❒ 「 Bot Info 」 
-│○ ${prefix}owner
 │○ ${prefix}rules
-│○ ${prefix}sc
 │○ ${prefix}ping
-│○ ${prefix}runtime
-│○ ${prefix}botstatus
-╰❒ ${prefix}donate
+╰❒
 
 
 ╭─❒ 「 Owner 」 
@@ -873,31 +868,6 @@ exports.listMenu2 = (prefix) => {
 │○ ${prefix}pppanjang
 │○ ${prefix}setpppanjang
 ╰❒ ${prefix}setppbot 
-
-╭─❒ 「 Store Menu 」
-│○ ${prefix}list
-│○ ${prefix}addlist [key|respond]
-│○ ${prefix}dellist [key]
-│○ ${prefix}update [key|respond]
-│○ ${prefix}store
-│○ ${prefix}kali
-│○ ${prefix}bagi
-│○ ${prefix}tambah
-│○ ${prefix}kurang
-│○ ${prefix}kalkulator
-│○ ${prefix}setproses
-│○ ${prefix}updateproses
-│○ ${prefix}cekproses
-│○ ${prefix}delproses
-│○ ${prefix}setdone
-│○ ${prefix}updatedone
-│○ ${prefix}cekdone
-│○ ${prefix}deldone
-│○ ${prefix}pay
-│○ ${prefix}setcaptionpay
-│○ ${prefix}setpaysewa
-│○ proses
-╰❒ done
 
 ╭─❒ 「 Anonymous 」
 │○ ${prefix}menfess
@@ -1269,78 +1239,6 @@ exports.listMenu2 = (prefix) => {
 │○ ${prefix}delstik
 ╰❒ ${prefix}liststik
 
-╭─❒ 「 Nsfw & Sfw 」
-│○ ${prefix}ahegao
-│○ ${prefix}anal
-│○ ${prefix}avatar2
-│○ ${prefix}baka
-│○ ${prefix}bdsm
-│○ ${prefix}bj
-│○ ${prefix}blowjob
-│○ ${prefix}boobs
-│○ ${prefix}classic
-│○ ${prefix}cuckold
-│○ ${prefix}cuddle
-│○ ${prefix}cum
-│○ ${prefix}cumarts
-│○ ${prefix}cumsluts
-│○ ${prefix}ero
-│○ ${prefix}erofeet
-│○ ${prefix}erokemonomimi
-│○ ${prefix}erokitsune
-│○ ${prefix}eroneko
-│○ ${prefix}eroyuri
-│○ ${prefix}feed
-│○ ${prefix}feet
-│○ ${prefix}feetgif
-│○ ${prefix}femdom
-│○ ${prefix}foot
-│○ ${prefix}foxgirl
-│○ ${prefix}futanari
-│○ ${prefix}gangbang
-│○ ${prefix}girl-solo
-│○ ${prefix}girl-solo-gif
-│○ ${prefix}glasses
-│○ ${prefix}hentai
-│○ ${prefix}hentai
-│○ ${prefix}hentai-gif
-│○ ${prefix}holo
-│○ ${prefix}holo2
-│○ ${prefix}holoero
-│○ ${prefix}hug
-│○ ${prefix}jahy
-│○ ${prefix}kemonomimi
-│○ ${prefix}kemonomimi2
-│○ ${prefix}keta
-│○ ${prefix}kiss
-│○ ${prefix}kitsune
-│○ ${prefix}kuni
-│○ ${prefix}lesbian
-│○ ${prefix}lizard
-│○ ${prefix}masturbation
-│○ ${prefix}meowi
-│○ ${prefix}neko
-│○ ${prefix}neko-gif
-│○ ${prefix}neko-sfw
-│○ ${prefix}neko2
-│○ ${prefix}nsfw-neko
-│○ ${prefix}orgy
-│○ ${prefix}panties
-│○ ${prefix}pat
-│○ ${prefix}poke
-│○ ${prefix}pussyart
-│○ ${prefix}pussywankgif
-│○ ${prefix}slap
-│○ ${prefix}smug
-│○ ${prefix}spank
-│○ ${prefix}tentacles
-│○ ${prefix}thighs
-│○ ${prefix}tickle
-│○ ${prefix}tits
-│○ ${prefix}trap
-│○ ${prefix}woof
-│○ ${prefix}yuri
-╰❒ ${prefix}zettai
 
 ╭─❒ 「 Ephoto360 Menu 」
 │○ ${prefix}1917text
